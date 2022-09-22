@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email</title>
+
+    <style>
+        p{
+            margin-top: 300px;
+        }
+    </style>
     
 </head>
 <body>
-    <h3>Welcome</h3>
+    
+    <form class="p" align="center">
+
+        <h3>Welcome</h3>
+
     <label>User ID</label> <input type="text" name="gender"><br>
     <br>
     <label>Password</label> <input type="text" name="gender"><br>
@@ -18,7 +28,7 @@
         <input type="radio" name="gender"> Male
         <input type="radio" name="gender"> Female
         <input type="radio" name="gender"> Others <br>
-
+            <br>
         <label>Select City</label>
         <select>
             <option>--Select city--</option>
@@ -31,15 +41,41 @@
             <option>Mangalore</option>
             <option>Tumkur</option>
             <option>Dharwad</option>
-        </select><br>
-
+        </select>
+        <br>
+        <br>
         <label>Select date of birth</label>
-        <input type="date" name="dateOfBirth">
-
+        <input type="date" name="dateOfBirth"> 
+            <br>
+            <br>
         <label>Enter age</label>
         <input type="number"><br>
+            <br>
+        <!-- 21-09-22 -->
+
+        <lable>Enter address</lable>
+        <textarea></textarea>
+
+            <br>
+        <!-- file upload -->
+        <div>
+        <label>Upload file</label>
+        <input type="file">
+        </div>
+
+        <label>Are you eligible</label>
+        <input type="checkbox">
         
+        <br>
+        <!-- syntax of css -->
+        <!-- 
+            selector{
+                property : value ;
+            }
+         -->
 
     <button>Submit </button>
+
+    </form>
 </body>
 </html>
