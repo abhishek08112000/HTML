@@ -1,0 +1,29 @@
+h1,h2{
+    color: white;
+    font-size: 30px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.lets{
+    color: white;
+    font-size: 30px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+#idselector{
+    color: aqua;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: moccasin; 
+    background-image: url("BGMIT.jpg");
+    background-size: cover;
+    
+    
+}
+.padding{
+    padding: 10px 200px 6px 200px; 
+    border: 2px solid black; 
+    margin: 10px;
+}
